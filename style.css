@@ -1,0 +1,567 @@
+.container{
+    height: 800px;
+    width: 800px;
+    border: 2px solid black;
+    position: relative;
+    display: flex;
+    animation: container 2s infinite linear ;
+    background: radial-gradient(circle, lightyellow, pink, lightgreen);
+
+}
+
+@keyframes container {
+    0%{
+        left: 10px;
+        top: 0px;
+    }
+
+    25%{
+        left: 10px;
+        top: 90px;
+        border-radius: 20%;
+        
+    }
+
+    50%{
+        left: 50px;
+        top: 90px;
+        border-radius: 50%;
+    }
+
+    75%{
+        left: 50px;
+        top: 0px;
+        border-radius: 30%;
+    }
+
+    100%{
+        left: 10px;
+        top: 0px;
+        border-radius: 20%;
+    }
+    
+}
+.item-1{
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    position:absolute;
+    top: 400px;
+    display: flex;
+    animation: to-fro 2s infinite linear ;
+   
+}
+
+.item-1-1 {
+    height: 10px;
+    width: 10px;
+    border: 2px solid black;
+    border-radius: 50%;
+    animation: item-1-1 3s infinite ease-in-out ;
+    position: absolute;
+}
+
+
+
+@keyframes item-1-1 {
+    0%{
+        top: 1px;
+        left: 0px;
+        background-color: blue;
+    }
+
+    50%{
+        top: 90px;
+        left: 90px;
+        background-color: brown;
+    }
+
+    100%{
+        top: 1px;
+        left: 1px;
+        background-color: pink;
+    }
+}
+
+.item-1-2{
+    height: 10px;
+    width: 10px;
+    border: 2px solid black;
+    border-radius: 50%;
+    position: absolute;
+    /* top:0px;
+    left:90px ; */
+    animation: item-1-2 3s infinite ease-in-out ;
+}
+
+
+@keyframes item-1-2 {
+    0%{
+        top: 1px;
+        left: 90px;
+        background-color: red;
+    }
+
+    50%{
+        top: 90px;
+        left: 0px;
+        background-color: purple;
+    }
+
+    100%{
+        top: 1px;
+        left: 90px;
+        background-color: yellow;
+    }
+}
+
+
+.item-1-3{
+    height: 10px;
+    width: 10px;
+    border: 2px solid black;
+    border-radius: 50%;
+    animation: item-1-3 3s infinite ease-in-out ;
+    position: absolute;
+}
+
+
+@keyframes item-1-3 {
+    0%{
+        top: 1px;
+        left: 40px;
+        background-color: aquamarine;
+    }
+
+    50%{
+        top: 90px;
+        left: 40px;
+        background-color: azure;
+    }
+
+    100%{
+        top: 1px;
+        left: 40px;
+        background-color: bisque;
+    }
+}
+
+@keyframes to-fro {
+    0%{
+        top: 400px;
+        left: 0px;
+        transform: rotate(0deg);
+        background-color: gray;
+    }
+
+    50%{
+        top: 0px;
+        left: 400px;
+        background-color: turquoise;
+    }
+
+    100%{
+        top: 400px;
+        left: 0px;
+        transform: rotate(360deg);
+        background-color: rosybrown;
+    }
+
+ 
+}
+
+.item-2{
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    position:absolute;
+    top: 400px;
+    right: 0px;
+    display: flex;
+    animation: item-2 2s infinite linear ;
+   
+}
+
+
+@keyframes item-2 {
+    0%{
+        top: 400px;
+        right: 0px;
+        transform: rotate(0deg);
+        background-color: gray;
+    }
+
+    50%{
+        top: 0px;
+       right: 400px;
+        background-color: turquoise;
+    }
+
+    100%{
+        top: 400px;
+        right: 0px;
+        transform: rotate(360deg);
+        background-color: rosybrown;
+    }
+}
+
+
+.item-2-1 {
+    height: 10px;
+    width: 10px;
+    border: 2px solid black;
+    border-radius: 50%;
+    animation: item-2-1 3s infinite ease-in-out ;
+    position: absolute;
+}
+
+
+
+@keyframes item-2-1 {
+    0%{
+        top: 1px;
+        left: 0px;
+        background-color: blue;
+    }
+
+    50%{
+        top: 90px;
+        left: 90px;
+        background-color: brown;
+    }
+
+    100%{
+        top: 1px;
+        left: 1px;
+        background-color: pink;
+    }
+}
+
+.item-2-2{
+    height: 10px;
+    width: 10px;
+    border: 2px solid black;
+    border-radius: 50%;
+    position: absolute;
+    /* top:0px;
+    left:90px ; */
+    animation: item-2-2 3s infinite ease-in-out ;
+}
+
+
+@keyframes item-2-2 {
+    0%{
+        top: 1px;
+        left: 90px;
+        background-color: red;
+    }
+
+    50%{
+        top: 90px;
+        left: 0px;
+        background-color: purple;
+    }
+
+    100%{
+        top: 1px;
+        left: 90px;
+        background-color: yellow;
+    }
+}
+
+
+.item-2-3{
+    height: 10px;
+    width: 10px;
+    border: 2px solid black;
+    border-radius: 50%;
+    animation: item-2-3 3s infinite ease-in-out ;
+    position: absolute;
+}
+
+
+@keyframes item-2-3 {
+    0%{
+        top: 1px;
+        left: 40px;
+        background-color: aquamarine;
+    }
+
+    50%{
+        top: 90px;
+        left: 40px;
+        background-color: azure;
+    }
+
+    100%{
+        top: 1px;
+        left: 40px;
+        background-color: bisque;
+    }
+}
+
+
+.item-3{
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    position:absolute;
+    top: 0px;
+    left: 400px;
+    display: flex;
+    animation: item-3 2s infinite linear ;
+}
+
+@keyframes item-3 {
+    0%{
+        top: 0px;
+        right:400px;
+        transform: rotate(0deg);
+        background-color: gray;
+    }
+
+    50%{
+        top: 700px;
+       right: 400px;
+        background-color: turquoise;
+    }
+
+    100%{
+        top: 0px;
+        right: 400px;
+        transform: rotate(360deg);
+        background-color: rosybrown;
+    }
+}
+
+.item-3-1 {
+    height: 10px;
+    width: 10px;
+    border: 2px solid black;
+    border-radius: 50%;
+    animation: item-3-1 3s infinite ease-in-out ;
+    position: absolute;
+}
+
+
+
+@keyframes item-3-1 {
+    0%{
+        top: 1px;
+        left: 0px;
+        background-color: blue;
+    }
+
+    50%{
+        top: 90px;
+        left: 90px;
+        background-color: brown;
+    }
+
+    100%{
+        top: 1px;
+        left: 1px;
+        background-color: pink;
+    }
+}
+
+.item-3-2{
+    height: 10px;
+    width: 10px;
+    border: 2px solid black;
+    border-radius: 50%;
+    position: absolute;
+    /* top:0px;
+    left:90px ; */
+    animation: item-3-2 3s infinite ease-in-out ;
+}
+
+
+@keyframes item-3-2 {
+    0%{
+        top: 1px;
+        left: 90px;
+        background-color: red;
+    }
+
+    50%{
+        top: 90px;
+        left: 0px;
+        background-color: purple;
+    }
+
+    100%{
+        top: 1px;
+        left: 90px;
+        background-color: yellow;
+    }
+}
+
+
+.item-3-3{
+    height: 10px;
+    width: 10px;
+    border: 2px solid black;
+    border-radius: 50%;
+    animation: item-3-3 3s infinite ease-in-out ;
+    position: absolute;
+}
+
+
+@keyframes item-3-3 {
+    0%{
+        top: 1px;
+        left: 40px;
+        background-color: aquamarine;
+    }
+
+    50%{
+        top: 90px;
+        left: 40px;
+        background-color: azure;
+    }
+
+    100%{
+        top: 1px;
+        left: 40px;
+        background-color: bisque;
+    }
+}
+
+.item-4{
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    position:absolute;
+    bottom: 0px;
+    left: 400px;
+    display: flex;
+    animation: item-4 2s infinite linear ;
+   
+}
+
+@keyframes item-4 {
+    0%{
+        top: 700px;
+        left:400px;
+        transform: rotate(0deg);
+        background-color: gray;
+    }
+
+    50%{
+        top: 400px;
+       left:0px;
+        background-color: turquoise;
+    }
+
+    100%{
+        top:700px;
+        left: 400px;
+        transform: rotate(360deg);
+        background-color: rosybrown;
+    }
+}
+
+.item-4-1 {
+    height: 10px;
+    width: 10px;
+    border: 2px solid black;
+    border-radius: 50%;
+    animation: item-4-1 3s infinite ease-in-out ;
+    position: absolute;
+}
+
+
+
+@keyframes item-4-1 {
+    0%{
+        top: 1px;
+        left: 0px;
+        background-color: blue;
+    }
+
+    50%{
+        top: 90px;
+        left: 90px;
+        background-color: brown;
+    }
+
+    100%{
+        top: 1px;
+        left: 1px;
+        background-color: pink;
+    }
+}
+
+.item-4-2{
+    height: 10px;
+    width: 10px;
+    border: 2px solid black;
+    border-radius: 50%;
+    position: absolute;
+    /* top:0px;
+    left:90px ; */
+    animation: item-4-2 3s infinite ease-in-out ;
+}
+
+
+@keyframes item-4-2 {
+    0%{
+        top: 1px;
+        left: 90px;
+        background-color: red;
+    }
+
+    50%{
+        top: 90px;
+        left: 0px;
+        background-color: purple;
+    }
+
+    100%{
+        top: 1px;
+        left: 90px;
+        background-color: yellow;
+    }
+}
+
+
+.item-4-3{
+    height: 10px;
+    width: 10px;
+    border: 2px solid black;
+    border-radius: 50%;
+    animation: item-4-3 3s infinite ease-in-out ;
+    position: absolute;
+}
+
+
+@keyframes item-4-3 {
+    0%{
+        top: 1px;
+        left: 40px;
+        background-color: aquamarine;
+    }
+
+    50%{
+        top: 90px;
+        left: 40px;
+        background-color: azure;
+    }
+
+    100%{
+        top: 1px;
+        left: 40px;
+        background-color: bisque;
+    }
+}
+
+.parallax{
+    background: url(ball.jpg) no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+
+
